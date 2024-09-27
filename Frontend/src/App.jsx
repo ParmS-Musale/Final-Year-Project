@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
+
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline'>
-      vaishnavi
-    </div>
+    <>
+    <Navbar/>
+    <Footer/>
+    </>
   )
 }
 
